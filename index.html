@@ -30,7 +30,6 @@ function receiveMessage(event)
      */
     var disqus_config = function () {
         var params = new URLSearchParams(window.location.search);
-        this.page.identifier = params.get("id");
         this.page.url = params.get("url");
         this.page.title = params.get("title");
     };
